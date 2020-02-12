@@ -1,0 +1,14 @@
+{
+  "name": "bla",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "compiler:sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "author": "Dakiri Mina",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
