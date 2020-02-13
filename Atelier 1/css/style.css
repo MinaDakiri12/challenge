@@ -1,0 +1,144 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    width:100% ;
+    
+}
+
+.intro-div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left: 4%; 
+}
+
+
+#logo{
+    width: 4%;
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+    
+
+.paragraph-section{
+    margin-top: 3%;  
+}
+
+.paragraph-section h1{
+
+}
+
+.paragraph-section  span{
+    background:black;
+    padding: 1% 1%;
+    font-size: 70%;
+    color: white;
+    border-radius: 120%;
+    float: left;
+}
+
+.paragraph-section #first-paragraph{
+   padding-bottom: 2%;
+   text-transform: uppercase;
+   color: grey;
+   padding-left: 10%;
+   margin-top: 3%;      
+}
+
+.paragraph-section #last-paragraph{
+    padding-bottom: 20%;
+    margin-right: 60%; 
+    color:gray ;   
+}
+
+
+
+.button-section{
+    margin-top: -10%;
+}
+
+
+
+.button-section Button {
+    color: white;
+    background: #FF5D5D;
+    width: 20%;
+    height:45px;
+    border-radius: 1em/5em   
+}
+.button-section a{
+    text-decoration: none;
+    padding-left: 2%;
+    color: grey;
+}
+
+
+/* The first section art divs */
+
+
+.art-div{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 10;
+    padding-top: 3%;
+    float: right; 
+    margin-right: 2%;  
+}
+
+.art-div img{
+     width: 50%;
+    margin-left: 50%;
+    margin-top: 2%;
+   
+    
+}
+
+.art-div ul{
+   float: right;
+   margin-right: 10%;
+
+
+}
+
+.art-div ul li{
+    list-style: none;
+    padding: 0 1em; 
+    display: inline; 
+ 
+}
+
+.art-div ul li a{
+    text-decoration: none;
+    text-transform: uppercase; 
+    color: black; 
+
+} 
+
+.art-div ul li a:hover{
+    color: salmon;    
+}
+
+
+.art-div .dotted-circle{
+    list-style: circle;
+    color: brown;      
+}
+
+.art-div .login-grey{
+    color:rgb(119, 103, 103);   
+}
+
+
+/* the second section background gris*/
+.art-background{
+
+    border-radius: 0 0 0 20%;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color:#EEF3F6;
+    margin-right: 2%;
+}
